@@ -1,0 +1,20 @@
+{
+  "name": "ShareBookmarks",
+  "description": "A browser action with a popup dump of all bookmarks, including search, add, edit and delete.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardRead",
+    "clipboardWrite",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
