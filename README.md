@@ -1,0 +1,2 @@
+# ChromeExtensionBookmarker
+はてなブックマークへの投稿とTwitterへのツイートを同時に行う拡張機能
